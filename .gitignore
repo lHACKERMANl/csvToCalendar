@@ -1,0 +1,57 @@
+# Go executables and generated files
+*.exe
+*.o
+*.out
+
+# Go binary
+/bin/
+/pkg/
+/out/
+
+# Go dependency directories
+/vendor/
+/Godeps/
+
+# Compiled object files, libraries, and plugins
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+_testmain.go
+
+# Testing and debugging files
+/test.out
+/trace.out
+
+# Output directories
+/_obj/
+/_test/
+
+# IDE-specific directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IntelliJ IDEA
+.idea/
+.idea_modules/
+
+# Visual Studio Code
+.vscode/
+
+# System and temporary files
+*~
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+
+# Local configuration files
+/config.local.*
+
+# Log files
+/log/
+*.log
