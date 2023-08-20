@@ -23,10 +23,10 @@ Note: Some columns like "MSK Format," "IZH Format," "Instructor," and "Record" c
 
 ## data.csv Signature
 
-plaintext
-
+```plaintext
 Date,Subject,MSK Format,Start (MSK),IZH Format,Start IZH,Instructor,Record
 DD/MM/YYYY,Title,Type,HH:MM(begin),Location,HH:MM(end),speaker,link
+```
 
 The signature describes the structure of the data.csv CSV file, where each row represents event information including date, subject, start format (MSK), start time (MSK), and other parameters.
 
