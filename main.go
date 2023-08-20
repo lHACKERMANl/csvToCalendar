@@ -5,7 +5,6 @@ import (
 )
 
 func main() {
-	// fmt.Println(solution.Towers())
 	credPath := "solution/cred.json"
 	csvPath := "solution/data.csv"
 
