@@ -20,15 +20,7 @@ To use **csvToCalendar**, follow these steps:
 
 Note: Some columns like "MSK Format," "IZH Format," "Instructor," and "Record" can be left empty.
 
-    Run the application:
-
-    In the command line, navigate to the directory containing the application and execute the following command:
-
-    sh
-
     go run main.go
-
-    The application will prompt you to authorize access to Google Calendar and then load events from the data.csv file into your calendar.
 
 data.csv Signature
 
