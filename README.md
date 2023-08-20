@@ -16,8 +16,7 @@ To use **csvToCalendar**, follow these steps:
 
    ```plaintext
    Date,Subject,MSK Format,Start (MSK),IZH Format,Start IZH,Instructor,Record
-   DD/MM/YYYY,Title,Type,HH:MM(begin),Location,HH:MM(end),speaker,link
-
+   DD/MM/YYYY,Title,Type,HH:MM(begin),Location,HH:MM(end),speaker,link```
 Note: Some columns like "MSK Format," "IZH Format," "Instructor," and "Record" can be left empty.
 
     go run main.go
